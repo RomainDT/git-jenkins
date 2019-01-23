@@ -4,6 +4,6 @@ node{
 	}
 	stage ('env variable'){
 		echo "affiche toutes les variables dispo"
-		env
+		sh 'env';
 	}
 }
